@@ -26,7 +26,7 @@ Models: Logistic Regression (forward/stepwise selection) guided by Random Forest
 Actionable predictors surfaced (e.g., payment history, collection attempts, settlement offers) to re-strategise loan recovery.
 
 
-Tech & methods: Python (pandas, scikit-learn), class balancing (SMOTE), AUC/Precision/Recall/F1, odds-ratio interpretation, dashboard-ready outputs for operations.
+methods: Python (pandas, scikit-learn), class balancing (SMOTE), AUC/Precision/Recall/F1, odds-ratio interpretation, dashboard-ready outputs for operations.
 
 Repository highlights:
 
