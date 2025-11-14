@@ -17,6 +17,7 @@ What I built (high level):
 Two-step classifier on historical loans dataset:
 
   - Recovered vs. Written-off (ROC AUC ≈ 0.76, precision up to 0.95 on “recovered”).
+    
   - Fully vs. Partially Recovered (ROC AUC ≈ 0.81, precision ≈ 0.85 on “fully”).
 
 End-to-end pipeline: EDA → cleansing → feature engineering → class balancing (SMOTE) → model selection → policy-ready recommendations.
@@ -27,10 +28,10 @@ Actionable predictors surfaced (e.g., payment history, collection attempts, sett
 
  Recommendations 
    - Implement loyalty-based retention programs (e.g., interest rate incentives, fee waivers) to maintain high repayment rates while minimizing collection cost
-   - Incorporate settlement-based recovery strategies, especially for delinquent accounts flagged as having moderate recovery potential,to increase resolution
-     rates while reducing prolonged collection costs.
-   - Introduce stricter credit assessments and collateral backed lending for new business loans . For existing high risk accounts, apply early settlement
-   - negotiations to mitigate write-offs  
+     
+   - Incorporate settlement-based recovery strategies, especially for delinquent accounts flagged as having moderate recovery potential,to increase resolution rates while reducing prolonged collection costs.
+     
+   - Introduce stricter credit assessments and collateral backed lending for new business loans . For existing high risk accounts, apply early settlement negotiations to mitigate write-offs .
 
 
 
@@ -41,4 +42,3 @@ methods: Python (pandas, scikit-learn), class balancing (SMOTE), AUC/Precision/R
 
 
 
-/reports: Analytic plan, Documentation, loan recovery executive overview, monitoring and governance.
