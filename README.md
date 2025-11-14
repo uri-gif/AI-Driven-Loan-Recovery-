@@ -1,7 +1,7 @@
-SMART LOAN RECOVERY 
+AI DRIVEN LOAN RECOVERY 
 
 What this project does (in one line): A production-minded, two-stage ML workflow that predicts which delinquent loans are recoverable and, if recoverable,
-which are likely to be fully vs. partially recovered—so collections teams deploy the right action at the right cost (e.g., a $10 call vs. a $500 legal notice).
+which are likely to be fully vs. partially recovered; so collections teams deploy the right action at the right cost (e.g., a $10 call vs. a $500 legal notice).
 
 Why it matters (business impact):
 
