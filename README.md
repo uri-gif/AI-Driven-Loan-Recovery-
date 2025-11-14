@@ -1,14 +1,17 @@
 AI DRIVEN LOAN RECOVERY 
 
-What this project does (in one line): A production-minded, two-stage ML workflow that predicts which delinquent loans are recoverable and, if recoverable,
-which are likely to be fully vs. partially recovered; so collections teams deploy the right action at the right cost (e.g., a $10 call vs. a $500 legal notice).
+What this project does (in one line): A production-minded, two-stage ML workflow that predicts which delinquent loans are recoverable and, if recoverable,which are likely to be fully vs. partially recovered; so collections teams deploy the right action at the right cost (e.g., a $10 call vs. a $500 legal notice).
 
 Why it matters (business impact):
 
-  -Targets higher recovery rates and lower operating costs by prioritizing the right accounts and strategies.
-  -Designed around cost-sensitive precision to avoid expensive false positives and misallocated effort.
-  -Built with regulatory awareness (FCAC/PIPEDA): sensitive attributes excluded, transparent modeling choices.
+- Banks lose up to 7% of their loan portfolio during economic downturns due to poor recovery targeting, so improving recovery decisions directly protects revenue and reduces charge-offs.
+ 
+ - The model helps collections teams recover more debt at a lower cost by identifying which accounts are worth pursuing and recommending the least costly effective action (e.g., call vs. legal notice).
 
+ - Cost-sensitive design reduces expensive false positives, ensuring staff time and operational budgets are deployed where they generate the highest return.
+
+ - The workflow aligns with FCAC/PIPEDA, enabling financial institutions to use AI-driven recovery strategies without compromising compliance or customer fairness.
+   
 What I built (high level):
 
 Two-step classifier on historical loans dataset:
